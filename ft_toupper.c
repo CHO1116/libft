@@ -3,11 +3,11 @@
 /*                                                        :::      ::::::::   */
 /*   ft_toupper.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: youngjch <youngjch@student.42seoul.>       +#+  +:+       +#+        */
+/*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:11:47 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 14:11:48 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/11 22:06:47 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-
+#include "libft.h"
