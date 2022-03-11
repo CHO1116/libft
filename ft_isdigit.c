@@ -6,13 +6,16 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 15:56:15 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 14:01:41 by youngjch         ###   ########seoul.kr  */
+/*   Updated: 2022/03/11 15:45:52 by youngjch         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isdigit(void)
+int	ft_isdigit(int c)
 {
-	printf("Hello B\n");
+	if (c >= 48 && c <= 57)
+		return (1);
+	else
+		return (0);
 }

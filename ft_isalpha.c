@@ -6,13 +6,16 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 15:56:29 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 14:01:34 by youngjch         ###   ########seoul.kr  */
+/*   Updated: 2022/03/11 15:45:26 by youngjch         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalpha(void)
+int	ft_isalpha(int c)
 {
-	printf("Hello A\n");
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
+		return (1);
+	else
+		return (0);
 }

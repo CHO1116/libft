@@ -6,14 +6,16 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 15:56:39 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 14:01:39 by youngjch         ###   ########seoul.kr  */
+/*   Updated: 2022/03/11 15:46:16 by youngjch         ###   ########seoul.kr  */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_isalnum(void)
+int	ft_isalnum(int c)
 {
-	
-	return (0);
+	if ((c >= 48 && c <= 57) || (c >= 65 && c <= 90) || (c >= 97 && c >= 122))
+		return (1);
+	else
+		return (0);
 }
