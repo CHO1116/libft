@@ -6,8 +6,16 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:11:47 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 22:06:47 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/11 22:52:14 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+int	ft_toupper(int c)
+{
+	if (c >= 97 && c <= 122)
+		return (c - 32);
+	else
+		return (c);
+}
