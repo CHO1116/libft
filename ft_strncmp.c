@@ -1,18 +1,13 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_isalpha.c                                       :+:      :+:    :+:   */
+/*   ft_strncmp.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
+/*   By: youngjch <youngjch@student.42seoul.>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/03/10 15:56:29 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 14:01:34 by youngjch         ###   ########seoul.kr  */
+/*   Created: 2022/03/11 14:10:36 by youngjch          #+#    #+#             */
+/*   Updated: 2022/03/11 14:10:37 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
 
-int	ft_isalpha(void)
-{
-	printf("Hello A\n");
-}
