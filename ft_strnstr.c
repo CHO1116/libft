@@ -6,8 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:10:47 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 22:06:47 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/13 01:55:21 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+char	*ft_strnstr(const char *big, const char *little, size_t len)
+{
+	
+}
