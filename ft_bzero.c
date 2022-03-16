@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:07:33 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/13 01:23:44 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/16 14:49:40 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_bzero(void *s, size_t n)
 {
-	
+	ft_memset(s, 0, n);
 }
