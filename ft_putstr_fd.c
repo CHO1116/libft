@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:09:08 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/16 16:20:45 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/16 17:16:08 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,6 +14,8 @@
 
 void	ft_putstr_fd(char *s, int fd)
 {
+	if (fd < 0)
+		return ;
 	while (*s)
 		write(fd, s++, 1);
 }
