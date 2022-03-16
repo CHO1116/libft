@@ -6,13 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:06:06 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/12 22:31:39 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/16 13:55:34 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	ft_atoi(const char *nptr)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	m;
@@ -21,18 +21,18 @@ int	ft_atoi(const char *nptr)
 	i = 0;
 	m = 1;
 	num = 0;
-	while (nptr[i] == '\t' || nptr[i] == '\n' || nptr[i] == '\v' || \
-			nptr[i] == '\f' || nptr[i] == '\r' || nptr[i] == ' ')
+	while (str[i] == '\t' || str[i] == '\n' || str[i] == '\v' || \
+			str[i] == '\f' || str[i] == '\r' || str[i] == ' ')
 		i++;
-	while (nptr[i] == '+' || nptr[i] == '-')
+	while (str[i] == '+' || str[i] == '-')
 	{
-		if (nptr[i] == '-')
+		if (str[i] == '-')
 			m *= -1;
 		i++;
 	}
-	while (nptr[i] >= '0' && nptr[i] <= '9')
+	while (str[i] >= '0' && str[i] <= '9')
 	{
-		num = num * 10 + (nptr[i] - '0');
+		num = num * 10 + (str[i] - '0');
 		i++;
 	}
 	return (m * num);
