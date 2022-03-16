@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:10:18 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 22:06:47 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/16 14:55:13 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,12 +14,12 @@
 
 size_t	ft_strlen(const char *s)
 {
-	size_t	index;
+	size_t	i;
 
-	index = 0;
-	while (s[index] != '\0')
+	i = 0;
+	while (s[i] != '\0')
 	{
-		index++;
+		i++;
 	}
-	return (index);
+	return (i);
 }
