@@ -6,13 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:08:21 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/13 01:34:26 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/16 17:50:39 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memmove(void *dest, const void *src, size_t n)
+void	*ft_memmove(void *dst, const void *src, size_t len)
 {
-	
+
 }

@@ -6,13 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:08:13 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/13 01:40:44 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/16 17:50:14 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	*ft_memcpy(void *dest, const void *src, size_t n)
+void	*ft_memcpy(void *dst, const void *src, size_t n)
 {
-	
+
 }
