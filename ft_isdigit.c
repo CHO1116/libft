@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/10 15:56:15 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/11 22:06:47 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/21 18:01:24 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,5 @@
 
 int	ft_isdigit(int c)
 {
-	if (c >= 48 && c <= 57)
-		return (1);
-	else
-		return (0);
+	return ('0' <= c && c <= '9');
 }
