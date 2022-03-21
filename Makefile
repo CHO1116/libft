@@ -6,7 +6,7 @@
 #    By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/03/10 16:43:46 by youngjch          #+#    #+#              #
-#    Updated: 2022/03/11 22:06:47 by youngjch         ###   ########.fr        #
+#    Updated: 2022/03/21 16:12:39 by youngjch         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -20,22 +20,12 @@ SRCS_A = ft_isalpha.c ft_isdigit.c ft_isalnum.c ft_isascii.c ft_isprint.c \
 		ft_strtrim.c ft_split.c ft_itoa.c ft_strmapi.c ft_striteri.c \
 		ft_putchar_fd.c ft_putstr_fd.c ft_putendl_fd.c ft_putnbr_fd.c
 
-SRCS_B = ft_lstnew.c ft_lstadd_front.c ft_lstsize.c ft_lstlast.c ft_lstadd_back.c \
-		ft_lstdelone.c ft_lstclear.c ft_lstiter.c ft_lstmap.c
+OBJS = $(SRCS_A:.c=.o)
 
-OBJS_A = $(SRC_A : .c = .o)
-OBJS_B = $(SRC_B : .c = .o)
-
-AR = ar -rcs
+AR = ar rcs
 RM = rm -f
 CC = gcc
 CFLAGS = -Werror -Wall -Wextra
-
-ifdef BONUS
-	OBJS = $(OBJS_A) $(OBJS_B)
-else
-	OBJS = $(OBJS_A)
-endif
 
 all : $(NAME)
 
@@ -46,12 +36,12 @@ bonus :
 	make BONUS = 1 all
 
 %.o : %.c
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CC) -I. -c $< -o $@
 
 clean:
 	$(RM) $(OBJS)
 
-fclean:
+fclean: clean
 	$(RM) $(NAME)
 
 re:	fclean all
