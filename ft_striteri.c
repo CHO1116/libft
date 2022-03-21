@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:09:46 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/13 01:06:41 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/21 17:50:34 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,5 @@
 
 void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 {
-	
+
 }

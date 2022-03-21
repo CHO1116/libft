@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:11:06 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/13 01:28:53 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/21 17:50:50 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,5 +15,5 @@
 
 char	*ft_strtrim(char const *s1, char const *set)
 {
-	
+
 }
