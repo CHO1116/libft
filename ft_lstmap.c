@@ -6,10 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:50:39 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 00:53:35 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 01:06:12 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
+{
+	
+}

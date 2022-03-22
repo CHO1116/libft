@@ -6,10 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:48:48 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 00:52:27 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 01:05:33 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstadd_back(t_list **lst, t_list *new);
+void	ft_lstadd_back(t_list **lst, t_list *new)
+{
+
+}

@@ -6,10 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:50:45 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 00:53:44 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 01:06:22 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int		ft_lstsize(t_list *lst);
+int		ft_lstsize(t_list *lst)
+{
+	
+}

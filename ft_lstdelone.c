@@ -6,10 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:50:30 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 00:52:56 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 01:05:55 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstdelone(t_list *lst, void (*del)(void *));
+void	ft_lstdelone(t_list *lst, void (*del)(void *))
+{
+	
+}

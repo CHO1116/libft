@@ -6,10 +6,13 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:50:33 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 00:53:08 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 01:06:00 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void	ft_lstiter(t_list *lst, void (*f)(void *));
+void	ft_lstiter(t_list *lst, void (*f)(void *))
+{
+	
+}
