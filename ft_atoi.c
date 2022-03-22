@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:06:06 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/21 19:42:24 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/22 13:23:58 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ int	ft_atoi(const char *str)
 		i++;
 	while (str[i] == '+' || str[i] == '-')
 	{
-		if (str[i - 1] == '+' || str[i - 1] == '-')
+		if (i > 0 && (str[i - 1] == '+' || str[i - 1] == '-'))
 			m = 0;
-		if (str[i] == '-')
+		else if (str[i] == '-')
 			m *= -1;
 		i++;
 	}
