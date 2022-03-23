@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/11 14:11:16 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/22 17:30:57 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 14:37:15 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,6 +28,7 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	sub_str = (char *)malloc(sizeof(char) * (len + 1));
 	if (!sub_str)
 		return (0);
-	ft_strlcpy(sub_str, s + start, len + 1);
+	ft_memcpy(sub_str, s + start, len);
+	sub_str[len] = '\0';
 	return (sub_str);
 }
