@@ -6,11 +6,12 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:50:27 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 14:03:18 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/23 14:40:12 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+#include <stdlib.h>
 
 void	ft_lstclear(t_list **lst, void (*del)(void *))
 {
