@@ -6,7 +6,7 @@
 /*   By: youngjch <youngjch@student.42seoul.kr>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/03/23 00:50:36 by youngjch          #+#    #+#             */
-/*   Updated: 2022/03/23 13:35:27 by youngjch         ###   ########.fr       */
+/*   Updated: 2022/03/25 08:50:27 by youngjch         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
-		return (0);
+		return (NULL);
 	while (lst->next != NULL)
 		lst = lst->next;
 	return (lst);
